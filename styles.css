@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, Arial, "sans-serif";
+  color: white;
+  background-color: black;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 16px;
+}
+button {
+  background-color: #1987ee;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.inputLabel {
+  font-size: 14px;
+  font-weight: bold;
+}
+input.inputField {
+  padding: 5px;
+  border: 1px solid #1987ee;
+}
+div.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+#primary1 {
+  background-color: black;
+  border: 1px solid white;
+}
+#primary2 {
+  background-color: white;
+}
+#primary3 {
+  background-color: #1987ee;
+}
+.warning {
+  background-color: #ffde00;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Call_to_Action {
+  background-color: #d41111;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.success {
+  background-color: #1987ee;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+svg.svg-inline--fa {
+  color: white;
+}
+.spacer {
+  margin-top: 25px;
+}
+#footer {
+  border-top: 1px solid #dddddd;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
