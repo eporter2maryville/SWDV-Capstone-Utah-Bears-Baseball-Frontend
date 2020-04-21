@@ -16,7 +16,23 @@
 
     <!--  Place Custom Styles Below -->
     <style>
+        * {
+  box-sizing: border-box;
+}
 
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
     </style>
 	<!-- Include script for font awesome icon library -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -45,11 +61,35 @@
                 <div>
                     <p></p>
                 </div>
-    <div class="container">
+    <!--<div class="container">
         <img src="baseball-crossed-bats.png" class="img-responsive" alt="Summer Maple" aria-label="Summer Maple Photo">
             <H1> This is the Home Screen</H1>
-    </div>
-                
+    </div>-->
+    <div class="container" style="background-color:#323232;">
+    <div class="row">
+        <div class="column" style="background-color:#323232;">
+            
+          <h2>Announcements</h2>
+          <p>Lorem Ipsum</p>
+        </div>
+        <div class="column" style="background-color:#323232;">
+          <h2>This is Bears Baseball</h2>
+          <p>In 2011 the team that would eventually become the Utah Bears was formed. The team was known
+              as the Twins until 2015. In 2015 the team manager retired from the game and the reins were
+              handed over to Tim Wade. Under Tim, the team name was changed to the Salt Lake Avalanche.
+                <br>
+              <br>As the Salt Lake Avalanche the team has taken 2nd in the league 2 times.
+                <br>
+              <br>In the fall of 2019 the team once again changed its identity to the Utah Bears after the 
+              team of the same name from the Walter Mathau classic "Bad News Bears". 
+              This is a reflection of who we are as a team. We aren't polished, or
+              posh, but we have guts, fight, and can throw em back when we need to!
+              <br>
+          </p>
+          <img src="images/Bad_News_Bears_Logo.png" class="img-responsive" alt="Bad News Bears Logo" aria-label="Bad News Bears Logo">
+        </div>
+      </div>  
+    </div>    
 
 </body>
 
