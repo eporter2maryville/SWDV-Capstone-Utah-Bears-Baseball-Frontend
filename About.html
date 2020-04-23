@@ -16,7 +16,23 @@
 
     <!--  Place Custom Styles Below -->
     <style>
+        * {
+  box-sizing: border-box;
+}
 
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
     </style>
 	<!-- Include script for font awesome icon library -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -33,7 +49,7 @@
                             <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="col-sm-2"><h1><a href= home.html >Home</a></h1></div>
                     <div class="col-sm-2"><h1><a href= Calendar.html>Calendar</a></h1></div>
-                    <div class="col-sm-2"><h1><a href=About.html>About the Team</a></h1></h1></div>
+                    <div class="col-sm-2"><h1><a href=About.html>About the Team</a></h1></div>
                     <div class="col-sm-2"><h1><a href=Contact.html>Contact</a> </h1></div>
                     <div class="col-sm-2"><h1><a href=Admin.html>Admin</a></h1></div>
                     </div>
@@ -46,8 +62,47 @@
                     <p></p>
                 </div>
     <div class="container">
-        <img src="baseball-crossed-bats.png" class="img-responsive" alt="Summer Maple" aria-label="Summer Maple Photo">
+        <img src="baseball-crossed-bats.png" class="img-responsive" alt="Crossed Bats" aria-label="Summer Maple Photo">
+        <div class="container">
+            <!--<img src="baseball-crossed-bats.png" class="img-responsive" alt="Summer Maple" aria-label="Summer Maple Photo">-->
+            <div class="container" style="background-color:#323232;">
+                <div class="row">
+                   
+                    <div class="column" style="background-color:#323232;">
+                      <h2>This is Bears Baseball</h2>
+                      <p>In 2011 the team that would eventually become the Utah Bears was formed. The team was known
+                          as the Twins until 2015. In 2015 the team manager retired from the game and the reins were
+                          handed over to Tim Wade. Under Tim, the team name was changed to the Salt Lake Avalanche.
+                            <br>
+                          <br>As the Salt Lake Avalanche the team has taken 2nd in the league 2 times.
+                            <br>
+                          <br>In the fall of 2019 the team once again changed its identity to the Utah Bears after the 
+                          team of the same name from the Walter Mathau classic "Bad News Bears". 
+                          This is a reflection of who we are as a team. We aren't polished, or
+                          posh, but we have guts, fight, and can throw em back when we need to!
+                          <br>
+                          <br>The Bears are part of the Utah AABL. This is the premier adult amateur baseball league in
+                          the state of Utah. In the year 2020 the league is set to have 23 teams among 3 age divisions:
+                          18-31, 32-41, and 42+.
+                          <br>
+                          <br>For more information on the league please check out the links below.
 
+                      </p>
+                      <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="col-sm-4"><p><a href= www.utahaabl.org >LeagueHome</a></p></div>
+                        <div class="col-sm-4"><p><a href= http://www.utahaabl.org/utah-aabl-new-player-application>New Player Application</a></p></div>
+                        <div class="col-sm-4"><p><a href=https://s3.amazonaws.com/my.llfiles.com/00021993/6-2020-Utah-AABL-Rules.doc>League Rules</a></p></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="column" style="background-color:#323232;">
+                        
+                        <img src="images/Bad_News_Bears_Logo.png" class="img-responsive" alt="Bad News Bears Logo" aria-label="Bad News Bears Logo" style="text-align:center";>
+                      </div>
+                  </div>  
+                </div>    
+        </div>
     </div>
                 
 
