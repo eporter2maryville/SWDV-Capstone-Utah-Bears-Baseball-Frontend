@@ -22,7 +22,7 @@
     <!-- Include script for font awesome icon library -->
     <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
     <!-- jQuery library -->
-    <script src="app/assets/js/jquery-3.5.0.min.js"></script>
+    <script src="app/assets/js/jquery-3.5.0.js"></script>
  
     <!-- bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -31,7 +31,10 @@
     <script src="app/assets/js/bootbox.all.min.js"></script>
  
     <!-- app js script -->
-    <script src="app/app.js"></script>
+    <script src="app/Header.js"></script>
+    <!-- announcements table script -->
+    <script src="app/AnnouncementTable.js"></script>
+    <script src="app/announcements/read-announcements.js"></script>
 </head>
 
 <body>
@@ -46,7 +49,9 @@
             <div class="column" style="background-color:#323232;">
 
                 <h2>Announcements</h2>
-                <p>Lorem Ipsum</p>
+                <p>
+                    <div id="page-content"></div>
+                </p>
                 <p><br></p>
                 <h2>Upcoming Events</h2>
             </div>

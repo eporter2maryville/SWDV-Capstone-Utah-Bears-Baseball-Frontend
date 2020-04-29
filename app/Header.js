@@ -43,7 +43,7 @@ $(document).ready(function () {
  
         </div>`;
 
-    // inject to 'app' in home.html
+    // inject to 'app' in all html pages
     $("#app").html(app_html);
 
 });
