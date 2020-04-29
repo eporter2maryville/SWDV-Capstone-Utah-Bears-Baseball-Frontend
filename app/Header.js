@@ -14,22 +14,24 @@ $(document).ready(function () {
                 <div class="container">
                     <div class="row" style="text-align:center">
                         <div class="col-sm-12 col-md-12 col-lg-12">
-                            <div class="col-sm-2">
+                            <div class="col-sm-3">
                                 <h1><a href=home.html>Home</a></h1>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-sm-3">
                                 <h1><a href=Calendar.html>Calendar</a></h1>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-sm-3">
                                 <h1><a href=About.html>About the Team</a></h1>
                                 </h1>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-sm-3">
                                 <h1><a href=Contact.html>Contact</a> </h1>
                             </div>
+                            <!--
                             <div class="col-sm-2">
                                 <h1><a href=Admin.html>Admin</a></h1>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
