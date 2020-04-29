@@ -10,7 +10,7 @@ function showAnnouncements(){
     //get list of announcements from the API
     $.getJSON("http://utahbearsbaseball.net/api/announcements/read.php", function(response){
 
-    });
+    
 
     // html for listing products
 var read_announcements_html=`
@@ -38,5 +38,6 @@ $.each(response.records, function(key, val) {
 // end table
 read_announcements_html+=`</table>`;
 // inject to 'page-content' of our app
-$("#page-content").html(read_announcements_html);
+$("#announcement-content").html(read_announcements_html);
+});
 };

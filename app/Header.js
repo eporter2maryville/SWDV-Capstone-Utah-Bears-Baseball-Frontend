@@ -2,46 +2,44 @@ $(document).ready(function () {
     console.log("Ready");
     // app html
     var app_html = `
-        <div class='container'>
- 
-            <div class='page-header'>
-            <div class="container">
-            <div class="row">
-                <div class="col-sm-14 col-md-14 col-lg-14">
-    
-                    <img src="TBD" class="img-responsive" alt="Utah Bears Baseball Logo Banner"
-                        aria-label="Utah Bears Baseball Logo Banner">
-                    <div class="container">
-                        <div class="row" style="text-align:center">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <div class="col-sm-2">
-                                    <h1><a href=home.html>Home</a></h1>
-                                </div>
-                                <div class="col-sm-2">
-                                    <h1><a href=Calendar.html>Calendar</a></h1>
-                                </div>
-                                <div class="col-sm-2">
-                                    <h1><a href=About.html>About the Team</a></h1>
-                                    </h1>
-                                </div>
-                                <div class="col-sm-2">
-                                    <h1><a href=Contact.html>Contact</a> </h1>
-                                </div>
-                                <div class="col-sm-2">
-                                    <h1><a href=Admin.html>Admin</a></h1>
-                                </div>
+    <div class='container'>
+    <div class="col-sm-14 col-md-14 col-lg-14">
+    <div class="row-full">
+    <!-- Banner to go here -->
+    </div>
+    </div>
+        <div class='page-header'>
+        <div class="container">
+            
+                <div class="container">
+                    <div class="row" style="text-align:center">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="col-sm-2">
+                                <h1><a href=home.html>Home</a></h1>
+                            </div>
+                            <div class="col-sm-2">
+                                <h1><a href=Calendar.html>Calendar</a></h1>
+                            </div>
+                            <div class="col-sm-2">
+                                <h1><a href=About.html>About the Team</a></h1>
+                                </h1>
+                            </div>
+                            <div class="col-sm-2">
+                                <h1><a href=Contact.html>Contact</a> </h1>
+                            </div>
+                            <div class="col-sm-2">
+                                <h1><a href=Admin.html>Admin</a></h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            </div>
- 
-            <!-- this is where the contents will be shown. -->
-            <div id='page-content'></div>
- 
-        </div>`;
+        
+        </div>
+
+
+
+    </div>`;
 
     // inject to 'app' in all html pages
     $("#app").html(app_html);
