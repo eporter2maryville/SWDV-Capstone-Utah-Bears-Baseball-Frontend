@@ -10,50 +10,33 @@
     <meta name="author" content="Brent Porter">
     <title>Utah Bears Baseball Style Guide</title>
 
-    <!-- Site theme -->
-    <!--  <link rel="stylesheet" type="text/css" href="css/theme.css">  -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- Site theme -->
+        <link rel="stylesheet" type="text/css" href="app/assets/css/styles.css">
 
-    <!--  Place Custom Styles Below -->
-    <style>
-
-    </style>
-    <!-- Include script for font awesome icon library -->
-    <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+        <!--  Place Custom Styles Below -->
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+        </style>
+        <!-- Include script for font awesome icon library -->
+        <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+        <!-- jQuery library -->
+        <script src="app/assets/js/jquery-3.5.0.min.js"></script>
+     
+        <!-- bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
+        <!-- bootbox for confirm pop up -->
+        <script src="app/assets/js/bootbox.all.min.js"></script>
+     
+        <!-- app js script -->
+        <script src="app/app.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-14 col-md-14 col-lg-14">
-
-                <img src="TBD" class="img-responsive" alt="Utah Bears Baseball Logo Banner"
-                    aria-label="Utah Bears Baseball Logo Banner">
-                <div class="container">
-                    <div class="row" style="text-align:center">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <div class="col-sm-2">
-                                <h1><a href=home.html>Home</a></h1>
-                            </div>
-                            <div class="col-sm-2">
-                                <h1><a href=Calendar.html>Calendar</a></h1>
-                            </div>
-                            <div class="col-sm-2">
-                                <h1><a href=About.html>About the Team</a></h1>
-                                </h1>
-                            </div>
-                            <div class="col-sm-2">
-                                <h1><a href=Contact.html>Contact</a> </h1>
-                            </div>
-                            <div class="col-sm-2">
-                                <h1><a href=Admin.html>Admin</a></h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- our app will be injected here -->
+<div id="app"></div>
     <div>
         <p>
 
@@ -82,7 +65,7 @@
                                 <h2><i class="fas fa-envelope"></i></h2>
                             </div>
                             <div class="col-sm-6">
-                                <h2><a href=utahbearsbaseballmanager@gmail.com>Email the Manager</a></h2>
+                                <h2><a href=mailto:utahbearsbaseballmanager@gmail.com>Email the Manager</a></h2>
                             </div>
 
                             <div class="row">
