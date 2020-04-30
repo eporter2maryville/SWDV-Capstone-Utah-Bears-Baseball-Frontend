@@ -14,9 +14,9 @@ function showEvents(){
 
     // html for listing products
 var read_events_html=`
-<!-- when clicked, it will load the create product event -->
-<div id='create-event' class='btn success pull-right m-b-15px create-event-button'>
-    <span class='glyphicon glyphicon-plus'></span> Create Event
+<!-- when clicked, it will load the create event -->
+<div>
+    <a href=Create_Event.html class='success pull-right m-b-15px' style="color: white;"><i class="far fa-calendar-plus"></i>  Create Event</a> 
 </div>
 <div>
 <p>
