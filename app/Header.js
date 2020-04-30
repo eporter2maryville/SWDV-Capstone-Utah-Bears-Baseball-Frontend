@@ -43,8 +43,8 @@ $(document).ready(function () {
 
     </div>`;
 
-    // inject to 'app' in all html pages
-    $("#header").html(app_html);
+    // inject to 'header' in all html pages
+    $("#app").html(app_html);
 
 });
 

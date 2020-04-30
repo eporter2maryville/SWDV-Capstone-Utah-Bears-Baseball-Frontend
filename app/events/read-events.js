@@ -16,7 +16,8 @@ function showEvents(){
 var read_events_html=`
 <!-- when clicked, it will load the create event -->
 <div>
-    <a href=Create_Event.html class='success pull-right m-b-15px' style="color: white;"><i class="far fa-calendar-plus"></i>  Create Event</a> 
+    <a href=Create_Event.html class='success pull-right m-b-15px' style="color: white;">
+    <i class="far fa-calendar-plus"></i>  Create Event</a> 
 </div>
 <div>
 <p>
