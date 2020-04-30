@@ -14,6 +14,15 @@ function showEvents(){
 
     // html for listing products
 var read_events_html=`
+<!-- when clicked, it will load the create product event -->
+<div id='create-event' class='btn success pull-right m-b-15px create-event-button'>
+    <span class='glyphicon glyphicon-plus'></span> Create Event
+</div>
+<div>
+<p>
+<br><br>
+</p>
+</div>
 <!-- start table -->
 <table class='table table-bordered table-hover'>
  
@@ -26,6 +35,8 @@ var read_events_html=`
         <th>Opponent</th>
         <th>Score</th>
         <th>Outcome</th>
+        <th>Update/Delete</th>
+
     </tr>`;
     //rows go here 
     // loop through returned list of data
@@ -41,6 +52,18 @@ $.each(response.records, function(key, val) {
             <td>` + val.Opponent + `</td>
             <td>` + val.Score + `</td>
             <td>` + val.Outcome + `</td>
+            <!-- 'action' buttons -->
+            <td> 
+                <!-- edit button -->
+                <button class='btn warning m-r-10px update-event-button' data-EventNumber='` + val.EventNumber + `'>
+                    <span class='glyphicon glyphicon-edit'></span> Edit Event
+                </button>
+ 
+                <!-- delete button -->
+                <button class='btn Call_to_Action delete-event-button' data-EventNumber='` + val.EventNumber + `'>
+                    <span class='glyphicon glyphicon-remove'></span> Delete Event
+                </button>
+            </td>
         </tr>`;
 });
  
