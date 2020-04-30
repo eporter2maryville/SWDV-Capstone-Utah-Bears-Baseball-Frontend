@@ -47,7 +47,7 @@ $(document).ready(function () {
     $("#app").html(app_html);
 
 });
- 
+
 // change page title
 function changePageTitle(page_title){
  
@@ -58,7 +58,7 @@ function changePageTitle(page_title){
     document.title=page_title;
 }
  
-// function to make form values to json format
+// function to convert form values to json format
 $.fn.serializeObject = function()
 {
     var o = {};
