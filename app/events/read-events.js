@@ -56,7 +56,7 @@ $.each(response.records, function(key, val) {
             <!-- 'action' buttons -->
             <td> 
                 <!-- edit button -->
-                <button class='btn warning m-r-10px update-event-button' data-EventNumber='` + val.EventNumber + `'>
+                <button id="update-event-button" class='btn warning m-r-10px update-event-button' data-EventNumber='` + val.EventNumber + `'>
                     <span class='glyphicon glyphicon-edit'></span> Edit Event
                 </button>
  
