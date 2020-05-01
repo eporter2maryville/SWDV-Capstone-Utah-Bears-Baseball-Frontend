@@ -54,6 +54,9 @@ a:hover {
 a:active {
   color: blue;
 }
+table:hover{
+  color:  #323232
+}
 
 .inputLabel {
   font-size: 14px;

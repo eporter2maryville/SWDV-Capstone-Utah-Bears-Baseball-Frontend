@@ -76,6 +76,9 @@ $.ajax({
     success : function(result) {
         // event was created, go back to events list
         showEvents();
+        form_data.reset();  
+        document.getElementById("Type").value = '';
+        document.forms["create-event-form"].reset()
     },
     error: function(xhr, resp, text) {
         // show error to console

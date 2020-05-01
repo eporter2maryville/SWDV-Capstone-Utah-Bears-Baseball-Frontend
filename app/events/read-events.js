@@ -55,15 +55,18 @@ $.each(response.records, function(key, val) {
             <td>` + val.Outcome + `</td>
             <!-- 'action' buttons -->
             <td> 
+            <div>
                 <!-- edit button -->
                 <button class='btn warning m-r-10px update-event-button' data-EventNumber='` + val.EventNumber + `'>
                     <span class='glyphicon glyphicon-edit'></span> Edit Event
                 </button>
- 
+                <div class="delete-event-button">
                 <!-- delete button -->
-                <button class='btn Call_to_Action delete-event-button' data-EventNumber='` + val.EventNumber + `'>
+                <button class='delete-event-button' data-EventNumber='` + val.EventNumber + `'>
                     <span class='glyphicon glyphicon-remove'></span> Delete Event
                 </button>
+                </div>
+                </div>    
             </td>
         </tr>`;
 });
