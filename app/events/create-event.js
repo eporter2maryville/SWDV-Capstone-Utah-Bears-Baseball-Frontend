@@ -1,12 +1,12 @@
 $(document).ready(function(){
- 
+console.log("Create Function Ready") 
     //html form here where event information is entered
         // we used the 'required' html5 property to prevent empty fields
         var create_event_html=`
         
         <!-- 'read events' button to show list of events -->
         <div>
-            <a href=Create_Event.html class='Call_to_Action pull-right m-b-15px' style="color: white;">
+            <a href=Calendar.html class='Call_to_Action pull-right m-b-15px' style="color: white;">
             <i class="fas fa-arrow-circle-left"></i></i>  Back to List</a> 
         </div>
 
