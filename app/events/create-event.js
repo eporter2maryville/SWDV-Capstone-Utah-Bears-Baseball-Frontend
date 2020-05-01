@@ -74,11 +74,12 @@ $.ajax({
     contentType : 'application/json',
     data : form_data,
     success : function(result) {
-        // event was created, go back to events list
-        showEvents();
-        form_data.reset();  
-        document.getElementById("Type").value = '';
-        document.forms["create-event-form"].reset()
+        // event was created, show confirmation
+        console.log("Event Created Successfully")
+        alert("Your new event has been added to the calendar!");
+        setTimeout(function() {
+        window.location.href = "http://utahbearsbaseball.net/Create_Event";
+                            });
     },
     error: function(xhr, resp, text) {
         // show error to console
