@@ -25,6 +25,13 @@ $.getJSON("http://utahbearsbaseball.net/api/events/read_one.php?EventNumber=" + 
         <div class="modal-content">
         <span class="close">&times;</span>
         -->
+        <h1>Update Your Event</h1>
+        <!-- 'read events' button to show list of events -->
+        <div>
+            <a href=Calendar.html class='Call_to_Action pull-right m-b-15px' style="color: white;">
+            <i class="fas fa-arrow-circle-left"></i></i>  Back to List</a> 
+        </div>
+
         <!-- build 'update event' html form -->
         <!-- we used the 'required' html5 property to prevent empty fields -->
         <form id='update-event-form' action='#' method='post' border='0'>
